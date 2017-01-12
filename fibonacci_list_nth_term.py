@@ -33,6 +33,7 @@ while count < 3:
     if num in shown:
         pass
     else:
+        count += 1
         shown.append(num)
         fibonacci(num)
-        count += 1
+       
